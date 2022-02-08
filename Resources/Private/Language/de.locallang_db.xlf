@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file source-language="en" target-language="de" datatype="plaintext" original="EXT:dv_owlscroller/Resources/Private/Language/locallang_db.xlf" date="2022-02-07T11:53:16Z" product-name="dv_owlscroller">
+		<header/>
+		<body>
+			<trans-unit id="dv_owlscroller.tab.title" resname="dv_owlscroller.tab.title">
+				<source>image scroller</source>
+				<target>Bilder Scroller</target>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.element.title" resname="dv_owlscroller.element.title">
+				<source>image scroller element</source>
+				<target>Inhaltselement Typ Bilder Scroller</target>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.element.description" resname="dv_owlscroller.element.description">
+				<source>image scroller elemat based on owl scroller</source>
+				<target>Bilderscroller basieren auf OWL Scroller</target>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.element.create" resname="dv_owlscroller.element.create">
+				<source>create new owl scroller</source>
+				<target>Neuen Scroller erstellen</target>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.tab.settings" resname="dv_owlscroller.tab.settings">
+				<source>settings</source>
+				<target>Konfiguration</target>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.settings.space" resname="dv_owlscroller.settings.space">
+				<source>space</source>
+				<target>Konfiguration Abstände [mehr unter https://owlcarousel2.github.io/OwlCarousel2/]</target>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.settings.responsive" resname="dv_owlscroller.settings.responsive">
+				<source>is reponsive - configuration</source>
+				<target>Responsive Konfiguration</target>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.settings.navigation" resname="dv_owlscroller.settings.navigation">
+				<source>navigation</source>
+				<target>Konfiguration Navigation</target>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.settings.miscellaneous" resname="dv_owlscroller.settings.miscellaneous">
+				<source>miscellaneous</source>
+				<target>zusätzliche Konfiguration</target>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.settings.enabled" resname="dv_owlscroller.settings.enabled">
+				<source>yes</source>
+				<target>ja</target>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.settings.title" resname="dv_owlscroller.settings.title">
+				<source>slider title</source>
+				<target>Slider Titel [nicht sichbar im Frontend]</target>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.settings.items" resname="dv_owlscroller.settings.items">
+				<source>max visible items</source>
+				<target>max. sichtbare Bilder</target>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.settings.margin" resname="dv_owlscroller.settings.margin">
+				<source>image right margin</source>
+				<target>Abstand Bilder nach Rechts in px [Wert ohne px hinterlegen]</target>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.settings.loop" resname="dv_owlscroller.settings.loop">
+				<source>loop images</source>
+				<target>Endlosschleife</target>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.settings.center" resname="dv_owlscroller.settings.center">
+				<source>center slider content</source>
+				<target>Inhalt zentrieren</target>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.settings.stagepadding" resname="dv_owlscroller.settings.stagepadding">
+				<source>slider padding left/right </source>
+				<target>Innenabstand Scroller Container nach links/rechts in px  [Wert ohne px hinterlegen]</target>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.settings.autowidth" resname="dv_owlscroller.settings.autowidth">
+				<source>autowidth</source>
+				<target>Auto Breite</target>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.settings.startposition" resname="dv_owlscroller.settings.startposition">
+				<source>startposition</source>
+				<target>Start mit Bild</target>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.settings.nav" resname="dv_owlscroller.settings.nav">
+				<source>show nav</source>
+				<target>Anzeige vor/zurück Button</target>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.settings.rewind" resname="dv_owlscroller.settings.rewind">
+				<source>rewind</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.settings.navtext" resname="dv_owlscroller.settings.navtext">
+				<source>navigation text back/forward</source>
+				<target>Navigation Text (Beispiel: &quot;zurück&quot;,&quot;weiter&quot;) in Anführungstrichen mit Komma</target>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.settings.dots" resname="dv_owlscroller.settings.dots">
+				<source>show dots</source>
+				<target>Punkt Navigation unter Silder anzeigen</target>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.settings.autoplay" resname="dv_owlscroller.settings.autoplay">
+				<source>autoplay</source>
+				<target>Autoplay</target>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.settings.autoplayhoverpause" resname="dv_owlscroller.settings.autoplayhoverpause">
+				<source>autoplay hover then pause</source>
+				<target>Pause bei Mousehover</target>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.settings.autoplayspeed" resname="dv_owlscroller.settings.autoplayspeed">
+				<source>autoplayspeed</source>
+				<target>Autoplay Geschwindigkeit in ms</target>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.settings.navspeed" resname="dv_owlscroller.settings.navspeed">
+				<source>navspeed</source>
+				<target>Navigationsgeschwindigkeit in ms</target>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.settings.items.mobile" resname="dv_owlscroller.settings.items.mobile">
+				<source>max items mobile</source>
+				<target>max. Bilder Mobile bis 480px</target>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.settings.items.tablet" resname="dv_owlscroller.settings.items.tablet">
+				<source>max items tablet</source>
+				<target>max. Bilder Tablet ab 480px</target>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.settings.items.desktop" resname="dv_owlscroller.settings.items.desktop">
+				<source>max items desktop</source>
+				<target>max. Bilder Desktop ab 768x</target>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.items" resname="dv_owlscroller.items">
+				<source>images</source>
+				<target>Bilder</target>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.item.crop" resname="dv_owlscroller.item.crop">
+				<source>crop image</source>
+				<target>Bildbearbeitung</target>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.tab.items" resname="dv_owlscroller.tab.items">
+				<source>scroller images</source>
+				<target>Scroller Bilder</target>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.item" resname="dv_owlscroller.item">
+				<source>images</source>
+				<target>Inhalt Bilder</target>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.item.image" resname="dv_owlscroller.item.image">
+				<source>image</source>
+				<target>Bild</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

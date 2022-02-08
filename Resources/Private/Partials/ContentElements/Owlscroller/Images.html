@@ -1,0 +1,15 @@
+<f:for each="{sliderSettings.0.sliderImages}" as="sliderImage">
+
+				<div>	
+					
+					 <a href="{f:uri.image(image: sliderImage, maxWidth: '800', cropVariant: 'owlscroller')}" class="lightbox" rel="lightbox[{sliderImage.uid}]" >
+					 
+					  <img src="{f:uri.image(image: sliderImage, maxWidth: '480', cropVariant: 'owlscroller')}" />
+				
+					 </a>
+				
+				</div>	
+			</f:for>
+		
+
+		

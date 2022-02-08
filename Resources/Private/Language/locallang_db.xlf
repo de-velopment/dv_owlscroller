@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file source-language="en" datatype="plaintext" original="EXT:dv_owlscroller/Resources/Private/Language/locallang_db.xlf" date="2022-02-07T11:53:16Z" product-name="dv_owlscroller">
+		<header/>
+		<body>
+			<trans-unit id="dv_owlscroller.tab.title" resname="dv_owlscroller.tab.title">
+				<source>image scroller</source>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.element.title" resname="dv_owlscroller.element.title">
+				<source>image scroller element</source>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.element.description" resname="dv_owlscroller.element.description">
+				<source>image scroller elemat based on owl scroller</source>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.element.create" resname="dv_owlscroller.element.create">
+				<source>create new owl scroller</source>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.tab.settings" resname="dv_owlscroller.tab.settings">
+				<source>settings</source>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.settings.space" resname="dv_owlscroller.settings.space">
+				<source>space</source>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.settings.responsive" resname="dv_owlscroller.settings.responsive">
+				<source>is reponsive - configuration</source>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.settings.navigation" resname="dv_owlscroller.settings.navigation">
+				<source>navigation</source>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.settings.miscellaneous" resname="dv_owlscroller.settings.miscellaneous">
+				<source>miscellaneous</source>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.settings.enabled" resname="dv_owlscroller.settings.enabled">
+				<source>yes</source>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.settings.title" resname="dv_owlscroller.settings.title">
+				<source>slider title</source>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.settings.items" resname="dv_owlscroller.settings.items">
+				<source>max visible items</source>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.settings.margin" resname="dv_owlscroller.settings.margin">
+				<source>image right margin</source>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.settings.loop" resname="dv_owlscroller.settings.loop">
+				<source>loop images</source>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.settings.center" resname="dv_owlscroller.settings.center">
+				<source>center slider content</source>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.settings.stagepadding" resname="dv_owlscroller.settings.stagepadding">
+				<source>slider padding left/right </source>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.settings.autowidth" resname="dv_owlscroller.settings.autowidth">
+				<source>autowidth</source>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.settings.startposition" resname="dv_owlscroller.settings.startposition">
+				<source>startposition</source>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.settings.nav" resname="dv_owlscroller.settings.nav">
+				<source>show nav</source>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.settings.rewind" resname="dv_owlscroller.settings.rewind">
+				<source>rewind</source>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.settings.navtext" resname="dv_owlscroller.settings.navtext">
+				<source>navigation text back/forward</source>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.settings.dots" resname="dv_owlscroller.settings.dots">
+				<source>show dots</source>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.settings.autoplay" resname="dv_owlscroller.settings.autoplay">
+				<source>autoplay</source>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.settings.autoplayhoverpause" resname="dv_owlscroller.settings.autoplayhoverpause">
+				<source>autoplay hover then pause</source>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.settings.autoplayspeed" resname="dv_owlscroller.settings.autoplayspeed">
+				<source>autoplayspeed</source>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.settings.navspeed" resname="dv_owlscroller.settings.navspeed">
+				<source>navspeed</source>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.settings.items.mobile" resname="dv_owlscroller.settings.items.mobile">
+				<source>max items mobile</source>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.settings.items.tablet" resname="dv_owlscroller.settings.items.tablet">
+				<source>max items tablet</source>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.settings.items.desktop" resname="dv_owlscroller.settings.items.desktop">
+				<source>max items desktop</source>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.items" resname="dv_owlscroller.items">
+				<source>images</source>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.item.crop" resname="dv_owlscroller.item.crop">
+				<source>crop image</source>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.tab.items" resname="dv_owlscroller.tab.items">
+				<source>scroller images</source>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.item" resname="dv_owlscroller.item">
+				<source>images</source>
+			</trans-unit>
+			<trans-unit id="dv_owlscroller.item.image" resname="dv_owlscroller.item.image">
+				<source>image</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,14 @@
+################
+#### HELPER ####
+################
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:dv_owlscroller/Configuration/TypoScript/Setup/tt_content.typoscript">
+
+
+tt_content.dv_owlscroller{
+ settings {
+	    
+    addOwlscrollerCssFile = {$tt_content.dv_owlscroller.settings.addOwlscrollerCssFile}
+		
+    }
+    
+}

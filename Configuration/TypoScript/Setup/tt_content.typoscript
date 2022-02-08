@@ -1,0 +1,42 @@
+tt_content{
+	dv_owlscroller < lib.contentElement
+	dv_owlscroller{
+		
+		templateRootPaths.10 = EXT:dv_owlscroller/Resources/Private/Templates/ContentElements/
+		
+		partialRootPaths.10 = EXT:dv_owlscroller/Resources/Private/Partials/ContentElements/
+		
+		templateName = Owlscroller.html
+		
+		
+			dataProcessing.330 = TYPO3\CMS\Frontend\DataProcessing\DatabaseQueryProcessor
+		    dataProcessing.330{
+			    
+			    ## tt_content Querprüfung ob Daten in Tabelle tx_dvowlscroller_settings vorhanden, um SQL Error zu vermeiden
+				if.isTrue.field = dvowlscroller_settings_relation
+				
+				table = tx_dvowlscroller_settings 
+		        pidInList = this
+		        where = uid=
+		        where.dataWrap = |{field:dvowlscroller_settings_relation}
+                as = sliderSettings
+                
+                 dataProcessing {
+							350 =  TYPO3\CMS\Frontend\DataProcessing\FilesProcessor
+							350 {
+								## Feldname image aus sys_file_refrence Tabelle
+								 references.fieldName = tx_dvowlscroller
+                                 as = sliderImages
+								    								
+							}
+						}
+
+						
+        
+ 
+	       }
+
+
+      }
+
+}

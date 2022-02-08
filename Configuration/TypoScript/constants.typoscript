@@ -1,0 +1,8 @@
+
+tt_content.dv_owlscroller{
+
+    settings {
+	    # cat=tt_content.dv_owlscroller//b; type=boolean; label=Add OWL Scroller animate.css file;
+		addOwlscrollerCssFile = 1
+    }
+}

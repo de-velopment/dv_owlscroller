@@ -1,0 +1,114 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+	data-namespace-typo3-fluid="true">
+
+	<f:if condition="{sliderSettings}">
+	
+	<f:asset.css identifier="owlCarousel" href="EXT:dv_owlscroller/Resources/Public/Css/owl.carousel.css" />
+	<f:asset.css identifier="owlCarouselTheme" href="EXT:dv_owlscroller/Resources/Public/Css/owl.theme.default.css" />
+	
+		<f:if condition="{settings.addOwlscrollerCssFile} == 1">
+		
+			<f:then>
+				
+	<f:asset.css identifier="owlCarouselAnimate" href="EXT:dv_owlscroller/Resources/Public/Css/animate.css" />
+	
+			</f:then>
+			
+		</f:if>
+	
+<div id="content--block--{data.uid}" class="{f:if(condition: '{data.space_before_class} == "extra-small"', then:'margin--top--5')}{f:if(condition: '{data.space_before_class} == "small"', then:'margin--top--10')}  {f:if(condition: '{data.space_before_class} == "medium"', then:'margin--top--20')} {f:if(condition: '{data.space_before_class} == "large"', then:'margin--top--40')} {f:if(condition: '{data.space_before_class} == "extra-large"', then:'margin--top--60')}{f:if(condition: '{data.space_before_class} == "super-large"', then:'margin--top--80')} {f:if(condition: '{data.space_after_class} == "extra-small"', then:'margin--bottom--5')} {f:if(condition: '{data.space_after_class} == "small"', then:'margin--bottom--10')} {f:if(condition: '{data.space_after_class} == "medium"', then:'margin--bottom--20')}{f:if(condition: '{data.space_after_class} == "large"', then:'margin--bottom--40')}  {f:if(condition: '{data.space_after_class} == "extra-large"', then:'margin--bottom--60')}  {f:if(condition: '{data.space_after_class} == "super-large"', then:'margin--bottom--80')} {f:if(condition: '{data.frame_class} == 0', then:'col-desk-12 col-tab-12 col-mob-4')}  {f:if(condition: '{data.frame_class} == 1', then:'col-desk-11 col-tab-12 col-mob-4')}   {f:if(condition: '{data.frame_class} == 2', then:'col-desk-10 col-tab-12 col-mob-4')}  {f:if(condition: '{data.frame_class} == 3', then:'col-desk-9 col-tab-12 col-mob-4')}   {f:if(condition: '{data.frame_class} == 4', then:'col-desk-8 col-tab-12 col-mob-4')}   {f:if(condition: '{data.frame_class} == 5', then:'col-desk-7 col-tab-12 col-mob-4')}   {f:if(condition: '{data.frame_class} == 6', then:'col-desk-6 col-tab-12 col-mob-4')}   {f:if(condition: '{data.frame_class} == 7', then:'col-desk-5 col-tab-12 col-mob-4')}   {f:if(condition: '{data.frame_class} == 8', then:'col-desk-4 col-tab-6 col-mob-4')}   {f:if(condition: '{data.frame_class} == 9', then:'col-desk-3 col-tab-6 col-mob-2')}   {f:if(condition: '{data.frame_class} == 10', then:'col-desk-2 col-tab-6 col-mob-2')}   {f:if(condition: '{data.frame_class} == 11', then:'col-desk-1 col-tab-6 col-mob-2')}  {f:if(condition: '{data.frame_class} == 12', then:'col-full-width')} {f:if(condition: '{data.dev_flex_item} == 1', then:'flex--parent')} element--{data.CType} {f:if(condition: '{data.layout} == 0', then:'background--white')} {f:if(condition: '{data.layout} == 4', then:'background--turquose--light')} {f:if(condition: '{data.layout} == 5', then:'background--turquose')} {f:if(condition: '{data.layout} == 6', then:'background--blue--black')} {f:if(condition: '{data.layout} == 7', then:'background--gray--light')}  "> 
+
+<div class="content--block--inner {f:if(condition: '{data.dev_flex_item} == 1', then:'flex--item')} {f:if(condition: '{data.dev_side_padding_left}', then:'padding--side--left--{data.dev_side_padding_left}')} {f:if(condition: '{data.dev_side_padding_right}', then:'padding--side--right--{data.dev_side_padding_right}')} {f:if(condition: '{data.dev_padding_top}', then:'padding--top--{data.dev_padding_top}')} {f:if(condition: '{data.dev_padding_bottom}', then:'padding--bottom--{data.dev_padding_bottom}')} ">
+	
+		
+		<div class="owl-carousel owl--carousel--id--{data.uid} owl-theme">
+		
+			<f:render partial="Owlscroller/Images" arguments="{_all}"/>
+	
+		</div>
+		
+			</div>
+		
+		</div>
+		
+	<f:asset.script identifier="owlScroller" src="EXT:dv_owlscroller/Resources/Public/Js/owl.carousel.min.js" />
+
+
+<f:asset.script identifier="iowlScrollerScript{data.uid}">
+  $(document).ready(function(){
+      
+     
+  	 
+ 	 $(".owl--carousel--id--<f:format.htmlspecialchars>{data.uid}</f:format.htmlspecialchars>").owlCarousel({
+	  
+	  	
+	  	margin: <f:format.htmlspecialchars>{sliderSettings.0.data.margin}</f:format.htmlspecialchars>,
+	  	
+	  	loop: <f:format.htmlspecialchars>{f:if(condition: '{sliderSettings.0.data.loop} == 1', then:'true', else:'false')}</f:format.htmlspecialchars>,
+	  	
+	  	center:<f:format.htmlspecialchars>{f:if(condition: '{sliderSettings.0.data.center} == 1', then:'true', else:'false')}</f:format.htmlspecialchars>,
+	  	
+	  	stagePadding: <f:format.htmlspecialchars>{sliderSettings.0.data.stagepadding}</f:format.htmlspecialchars>,
+	  	
+	  	autoWidth:<f:format.htmlspecialchars>{f:if(condition: '{sliderSettings.0.data.autowidth} == 1', then:'true', else:'false')}</f:format.htmlspecialchars>,
+	  	
+	  	startPosition:'<f:format.htmlspecialchars>{sliderSettings.0.data.startposition}</f:format.htmlspecialchars>',
+	  	
+	  	nav: <f:format.htmlspecialchars>{f:if(condition: '{sliderSettings.0.data.nav} == 1', then:'true', else:'false')}</f:format.htmlspecialchars>,
+	  
+	  	rewind: <f:format.htmlspecialchars>{f:if(condition: '{sliderSettings.0.data.rewind} == 1', then:'true', else:'false')}</f:format.htmlspecialchars>,
+	  	
+	  	navText: [<f:format.raw>{sliderSettings.0.data.navtext}</f:format.raw>],
+	  	
+	  	dots: <f:format.htmlspecialchars>{f:if(condition: '{sliderSettings.0.data.dots} == 1', then:'true', else:'false')}</f:format.htmlspecialchars>,
+	  	
+	  	
+	  	autoplay: <f:format.htmlspecialchars>{f:if(condition: '{sliderSettings.0.data.autoplay} == 1', then:'true', else:'false')}</f:format.htmlspecialchars>,
+	  	
+	  	autoplayHoverPause:<f:format.htmlspecialchars>{f:if(condition: '{sliderSettings.0.data.autoplayhoverpause} == 1', then:'true', else:'false')}</f:format.htmlspecialchars>,
+	  	
+	  	autoplaySpeed: '<f:format.htmlspecialchars>{sliderSettings.0.data.autoplayspeed}</f:format.htmlspecialchars>',
+	    
+	    navSpeed:'<f:format.htmlspecialchars>{sliderSettings.0.data.navspeed}</f:format.htmlspecialchars>',
+	    
+	  	<f:if condition="{sliderSettings.0.data.responsive} ==0">
+	    	
+	    		<f:then>
+	    	items: <f:format.htmlspecialchars>{sliderSettings.0.data.items}</f:format.htmlspecialchars>,
+	    		
+	    		</f:then>
+	  	</f:if>
+       
+	    
+	    	<f:if condition="{sliderSettings.0.data.responsive} ==1">
+	    	
+	    		<f:then>
+	    responsive :{
+	    		0 : {
+       
+					items: <f:format.htmlspecialchars>{sliderSettings.0.data.items_mobile}</f:format.htmlspecialchars>,
+					animateOut: 'fadeOut'
+					},
+					// breakpoint from 480 up
+				480 : {
+					items: <f:format.htmlspecialchars>{sliderSettings.0.data.items_tablet}</f:format.htmlspecialchars>
+					},
+					// breakpoint from 768 up
+				768 : {
+					items: <f:format.htmlspecialchars>{sliderSettings.0.data.items_desktop}</f:format.htmlspecialchars>,
+					}
+					}
+	    		</f:then>
+	    	</f:if>
+	    	
+	
+	  	
+	  	
+ 	 	});
+  });
+</f:asset.script>
+	
+	</f:if>
+	
+</html>
+

@@ -1,0 +1,16 @@
+
+mod.wizards.newContentElement.wizardItems.ownContentElements{
+   header = LLL:EXT:dv_owlscroller/Resources/Private/Language/locallang_db.xlf:dv_owlscroller.tab.title
+   after = common
+   elements {
+       dv_owlscroller {
+           iconIdentifier = element-dvowlscroller
+           title = LLL:EXT:dv_owlscroller/Resources/Private/Language/locallang_db.xlf:dv_owlscroller.element.title
+           description =   LLL:EXT:dv_owlscroller/Resources/Private/Language/locallang_db.xlf:dv_owlscroller.element.description
+           tt_content_defValues {
+               CType = dv_owlscroller
+           }
+        }
+    }
+    show := addToList(dv_owlscroller)
+}
