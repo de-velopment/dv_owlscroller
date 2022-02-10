@@ -13,7 +13,7 @@ class OwlscrollerPreviewRender implements PageLayoutViewDrawItemHookInterface
 {
 	
 	/**
-	 * Preprocesses the preview rendering of a content element of type "Foundation Slider/Header"
+	 * Preprocesses the preview rendering of a content element of type "OWL Carousel"
 	 *
 	 * @param \TYPO3\CMS\Backend\View\PageLayoutView $parentObject Calling parent object
 	 * @param bool $drawItem Whether to draw the item using the default functionality

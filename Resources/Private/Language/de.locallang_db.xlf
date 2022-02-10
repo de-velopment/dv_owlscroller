@@ -1,22 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-	<file source-language="en" target-language="de" datatype="plaintext" original="EXT:dv_owlscroller/Resources/Private/Language/locallang_db.xlf" date="2022-02-07T11:53:16Z" product-name="dv_owlscroller">
+	<file source-language="en" target-language="de" datatype="plaintext" original="EXT:dv_owlscroller/Resources/Private/Language/locallang_db.xlf" date="2022-02-10T09:53:44Z" product-name="dv_owlscroller">
 		<header/>
 		<body>
+			<trans-unit id="tx_dvowlscroller_settings" resname="tx_dvowlscroller_settings">
+				<source>OWL Carousel</source>
+				<target>OWL Carousel [Inhaltselement]</target>
+			</trans-unit>
 			<trans-unit id="dv_owlscroller.tab.title" resname="dv_owlscroller.tab.title">
-				<source>image scroller</source>
-				<target>Bilder Scroller</target>
+				<source>image carousel</source>
+				<target>Bilder Carousel</target>
 			</trans-unit>
 			<trans-unit id="dv_owlscroller.element.title" resname="dv_owlscroller.element.title">
-				<source>image scroller element</source>
-				<target>Inhaltselement Typ Bilder Scroller</target>
+				<source>image carousel element</source>
+				<target>Inhaltselement Typ Bilder Carousel</target>
 			</trans-unit>
 			<trans-unit id="dv_owlscroller.element.description" resname="dv_owlscroller.element.description">
-				<source>image scroller elemat based on owl scroller</source>
-				<target>Bilderscroller basieren auf OWL Scroller</target>
+				<source>image carousel element based on owl carousel</source>
+				<target>Bilderscroller basieren auf OWL Carousel</target>
 			</trans-unit>
 			<trans-unit id="dv_owlscroller.element.create" resname="dv_owlscroller.element.create">
-				<source>create new owl scroller</source>
+				<source>create new owl carousel</source>
 				<target>Neuen Scroller erstellen</target>
 			</trans-unit>
 			<trans-unit id="dv_owlscroller.tab.settings" resname="dv_owlscroller.tab.settings">
@@ -81,7 +85,7 @@
 			</trans-unit>
 			<trans-unit id="dv_owlscroller.settings.rewind" resname="dv_owlscroller.settings.rewind">
 				<source>rewind</source>
-				<target></target>
+				<target>Zurück auf Startbild bei erreichen des Endes</target>
 			</trans-unit>
 			<trans-unit id="dv_owlscroller.settings.navtext" resname="dv_owlscroller.settings.navtext">
 				<source>navigation text back/forward</source>
@@ -129,7 +133,7 @@
 			</trans-unit>
 			<trans-unit id="dv_owlscroller.tab.items" resname="dv_owlscroller.tab.items">
 				<source>scroller images</source>
-				<target>Scroller Bilder</target>
+				<target>Carousel Bilder</target>
 			</trans-unit>
 			<trans-unit id="dv_owlscroller.item" resname="dv_owlscroller.item">
 				<source>images</source>

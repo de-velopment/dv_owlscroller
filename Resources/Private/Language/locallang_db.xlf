@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-	<file source-language="en" datatype="plaintext" original="EXT:dv_owlscroller/Resources/Private/Language/locallang_db.xlf" date="2022-02-07T11:53:16Z" product-name="dv_owlscroller">
+	<file source-language="en" datatype="plaintext" original="EXT:dv_owlscroller/Resources/Private/Language/locallang_db.xlf" date="2022-02-10T09:53:44Z" product-name="dv_owlscroller">
 		<header/>
 		<body>
+			<trans-unit id="tx_dvowlscroller_settings" resname="tx_dvowlscroller_settings">
+				<source>OWL Carousel</source>
+			</trans-unit>
 			<trans-unit id="dv_owlscroller.tab.title" resname="dv_owlscroller.tab.title">
-				<source>image scroller</source>
+				<source>image carousel</source>
 			</trans-unit>
 			<trans-unit id="dv_owlscroller.element.title" resname="dv_owlscroller.element.title">
-				<source>image scroller element</source>
+				<source>image carousel element</source>
 			</trans-unit>
 			<trans-unit id="dv_owlscroller.element.description" resname="dv_owlscroller.element.description">
-				<source>image scroller elemat based on owl scroller</source>
+				<source>image carousel element based on owl carousel</source>
 			</trans-unit>
 			<trans-unit id="dv_owlscroller.element.create" resname="dv_owlscroller.element.create">
-				<source>create new owl scroller</source>
+				<source>create new owl carousel</source>
 			</trans-unit>
 			<trans-unit id="dv_owlscroller.tab.settings" resname="dv_owlscroller.tab.settings">
 				<source>settings</source>

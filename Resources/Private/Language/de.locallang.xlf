@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file source-language="en" target-language="de" datatype="plaintext" original="EXT:dv_owlscroller/Resources/Private/Language/locallang.xlf" date="2022-02-10T09:48:50Z" product-name="dv_owlscroller">
+		<header/>
+		<body>
+			<trans-unit id="tx_dvowlscroller_settings" resname="tx_dvowlscroller_settings">
+				<source>OWL Scroller</source>
+				<target>OWL Scroller [Inhaltselement]</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
