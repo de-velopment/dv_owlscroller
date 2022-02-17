@@ -2,10 +2,6 @@
 defined('TYPO3_MODE') || die();
 
 
-
-
-\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig('<INCLUDE_TYPOSCRIPT: source="FILE:EXT:brauhaus_sitepackage/Configuration/TsConfig/Page/All.tsconfig">');
-
 //Beginn Einbindung TSConfig > Anzeige als ContentElement bei Neuen Datensatz	
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig("@import 'EXT:dv_owlscroller/Configuration/TsConfig/Page/*.typoscript'"); 
  //Ende Einbindung TSConfig
