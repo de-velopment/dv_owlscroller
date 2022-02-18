@@ -11,22 +11,19 @@ tt_content{
 		
 			dataProcessing.330 = TYPO3\CMS\Frontend\DataProcessing\DatabaseQueryProcessor
 		    dataProcessing.330{
-			    
-			    ## tt_content Querprüfung ob Daten in Tabelle tx_dvowlscroller_settings vorhanden, um SQL Error zu vermeiden
-				if.isTrue.field = dvowlscroller_settings_relation
-				
+      if.isTrue.field = dvowlscroller_settings_relation
 				table = tx_dvowlscroller_settings 
-		        pidInList = root,-1
-				recursive = 9999
+		    pidInList = root,-1
+			recursive = 9999
 		        where = uid=
 		        where.dataWrap = |{field:dvowlscroller_settings_relation}
-                as = sliderSettings
+                   as = sliderSettings
                 
                  dataProcessing {
 							350 =  TYPO3\CMS\Frontend\DataProcessing\FilesProcessor
 							350 {
 								## Feldname image aus sys_file_refrence Tabelle
-								 references.fieldName = tx_dvowlscroller
+								 references.fieldName = image
                                  as = sliderImages
 								    								
 							}
